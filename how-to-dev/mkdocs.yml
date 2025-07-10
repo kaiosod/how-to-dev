@@ -1,0 +1,6 @@
+site_name: How to Dev
+
+nav:
+  - Home: index.md
+  - Git Comandos: git-comandos.md
+  - Ambiente Virtual: venv.md
