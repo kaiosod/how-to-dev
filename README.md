@@ -4,7 +4,7 @@ This guide explains how to install MkDocs, create your documentation project, an
 
 ---
 
-### ✅ 1. Install MkDocs
+### 1. Install MkDocs
 
 Make sure you have Python and pip installed. Then run:
 
@@ -19,7 +19,7 @@ python3 -m mkdocs --version
 
 ---
 
-📁 2. Create the Project Structure
+2. Create the Project Structure
 
 Generate a new MkDocs project:
 
@@ -34,7 +34,7 @@ This will create:
 
 ---
 
-📝 3. Add Your Tutorials
+3. Add Your Tutorials
 
 Inside the docs/ folder, create your tutorial files:
 
@@ -55,7 +55,7 @@ git commit -m "message"
 ```
 ---
 
-### ⚙️ 4. Configure Navigation
+### 4. Configure Navigation
 
 Edit `mkdocs.yml` to set up your navigation menu:
 
@@ -70,7 +70,7 @@ nav:
 
 ---
 
-🚀 5. Run Locally
+5. Run Locally
 
 To preview your documentation locally:
 ```bash
@@ -82,7 +82,7 @@ Then open your browser at http://127.0.0.1:8000
 
 ---
 
-☁️ 6. Deploy to GitHub Pages
+6. Deploy to GitHub Pages
 
 Make sure your repo is initialized and linked to GitHub:
 

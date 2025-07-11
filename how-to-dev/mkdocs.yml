@@ -1,4 +1,4 @@
-site_name: How to Devv
+site_name: How to Dev
 
 nav:
   - Home: index.md
@@ -10,3 +10,16 @@ theme:
   name: material
   palette:
     scheme: slate  # dark mode as default
+    primary: deep orange
+    accent: amber
+
+markdown_extensions:
+- codehilite
+- admonition
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kaiosod
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/kaiosod
