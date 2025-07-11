@@ -10,8 +10,6 @@ python3 --version
 
 If Python is not installed, download it from:
 
-[https://www.python.org/downloads/](https://www.python.org/downloads/)
-
 ---
 
 ## 2. Create the Virtual Environment
