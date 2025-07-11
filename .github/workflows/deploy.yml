@@ -3,24 +3,15 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main  # dispara sempre que der push na main
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.10
-
-      - name: Install dependencies
-        run: |
-          pip3 install mkdocs mkdocs-material pymdown-extensions
-
-      - name: Build and deploy
-        run: |
-          python3 -m mkdocs gh-deploy --force
+      - run: pip install mkdocs mkdocs-material pymdown-extensions
+      - run: python -m mkdocs gh-deploy --force
