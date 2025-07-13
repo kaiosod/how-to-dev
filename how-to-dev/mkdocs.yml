@@ -1,10 +1,19 @@
-site_name: How to Dev
+site_name: How to Dev [kaiosod]
 
 nav:
   - Home: index.md
   - Git and GitHub: git.md
   - Python:
     - Venv: venv.md
+  - PHP:
+    - Input: php/input.md
+    - Variables: php/variaveis.md
+    - Strings: php/string.md
+    - Arrays: php/array.md
+    - Operators: php/operadores.md
+    - Conditional Operators: php/operadores-condicao.md
+    - Repeat Loops: php/operadores-repeticao.md
+
 
 theme:
   name: material

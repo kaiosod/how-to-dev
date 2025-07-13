@@ -1,4 +1,4 @@
-# How to Dev [Kaio]
+# How to Dev [kaiosod]
 
 Personal [GitHub](https://github.com/kaiosod)
 

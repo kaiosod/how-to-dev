@@ -2,6 +2,8 @@
 
 This guide explains how to install MkDocs, create your documentation project, and deploy it to GitHub Pages.
 
+Link to my project - [https://kaiosod.github.io/how-to-dev/](https://kaiosod.github.io/how-to-dev/)
+
 ---
 
 ### 1. Install MkDocs
